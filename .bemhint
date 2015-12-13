@@ -1,0 +1,24 @@
+{
+    "levels": [
+        "*.blocks"
+    ],
+
+    "excludePaths": [
+        "node_modueles/**"
+    ],
+
+    "plugins": {
+        "bemhint-plugins-jshint": {
+            "techs": {
+                "js": true
+            }
+        },
+        "bemhint-plugins-jscs": {
+            "techs": {
+                "js": true
+            }
+        },
+        "bemhint-plugin-check-file-entity": true,
+        "bemhint-plugins-check-empty-files": true
+    }
+}
