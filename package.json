@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bemhint": "git://github.com/bem/bemhint#new-architecture",
+    "bemhint-plugins-jshint": "git://github.com/egavr/bemhint-plugins-jshint",
+    "bemhint-plugins-jscs": "git://github.com/egavr/bemhint-plugins-jscs",
+    "bemhint-plugins-redundant-techs": "git://github.com/yalovek/bemhint-plugins-redundant-techs",
+    "bemhint-plugins-check-empty-files": "git://github.com/fual/bemhint-plugins-check-empty-files"
+  }
 }

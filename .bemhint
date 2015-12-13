@@ -10,15 +10,15 @@
     "plugins": {
         "bemhint-plugins-jshint": {
             "techs": {
-                "js": true
+                "js|deps.js": true
             }
         },
-        "bemhint-plugins-jscs": {
+        "bemhint-plugins-jscs": true,
+        "bemhint-plugins-redundant-techs": {
             "techs": {
-                "js": true
+                "zip": true
             }
         },
-        "bemhint-plugin-check-file-entity": true,
         "bemhint-plugins-check-empty-files": true
     }
 }
