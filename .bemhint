@@ -4,7 +4,7 @@
     ],
 
     "excludePaths": [
-        "node_modueles/**"
+        "node_modules/**"
     ],
 
     "plugins": {
@@ -28,6 +28,10 @@
                 "bemhtml": true
             }
         },
-        "bemhint-plugins-check-empty-files": true
+        "bemhint-plugins-check-file-entity": {
+            "techs": {
+                "styl": true
+            }
+        }
     }
 }

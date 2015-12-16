@@ -1,18 +1,10 @@
 {
   "name": "bemhint-test-prj",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "bemhint": "git://github.com/bem/bemhint#dev",
-    "bemhint-plugins-jshint": "git://github.com/egavr/bemhint-plugins-jshint",
-    "bemhint-plugins-jscs": "git://github.com/egavr/bemhint-plugins-jscs",
-    "bemhint-plugins-redundant-techs": "git://github.com/yalovek/bemhint-plugins-redundant-techs",
-    "bemhint-plugins-check-empty-files": "git://github.com/fual/bemhint-plugins-check-empty-files"
+    "bemhint": "0.3.0",
+    "bemhint-plugins-jshint": "0.1.0",
+    "bemhint-plugins-jscs": "0.1.0",
+    "bemhint-plugins-redundant-techs": "1.0.0",
+    "bemhint-plugins-check-file-entity": "1.0.0"
   }
 }
