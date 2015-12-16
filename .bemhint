@@ -13,10 +13,19 @@
                 "js|deps.js": true
             }
         },
-        "bemhint-plugins-jscs": true,
+        "bemhint-plugins-jscs": {
+            "techs": {
+                "js": {
+                    "requireCurlyBraces": ["if"],
+                    "disallowSpacesInFunction": {
+                        "beforeOpeningRoundBrace": true
+                    }
+                }
+            }
+        },
         "bemhint-plugins-redundant-techs": {
             "techs": {
-                "zip": true
+                "bemhtml": true
             }
         },
         "bemhint-plugins-check-empty-files": true

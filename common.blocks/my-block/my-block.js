@@ -1,7 +1,3 @@
-function a() {
+if (a == 3) console.log('Hello!');
 
-}
-
-a = 5;
-
-.bla{}
+function a () {}
